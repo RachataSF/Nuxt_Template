@@ -1,0 +1,41 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "buildcss": "tailwindcss -i ./app/assets/css/style.css -o ./app/assets/css/main.css",
+    "watch": "tailwindcss --watch -i ./app/assets/css/style.css -o ./app/assets/css/main.css"
+  },
+  "dependencies": {
+    "@nuxt/content": "^3.6.3",
+    "@nuxt/fonts": "^0.11.4",
+    "@nuxt/icon": "^2.0.0",
+    "@nuxt/image": "^1.11.0",
+    "@nuxt/ui": "^3.3.0",
+    "@tailwindcss/cli": "^4.1.11",
+    "@tailwindcss/vite": "^4.1.11",
+    "apexcharts": "^5.3.3",
+    "axios": "^1.11.0",
+    "better-sqlite3": "^12.2.0",
+    "npx": "^10.2.2",
+    "nuxt": "^4.0.1",
+    "pinia": "^3.0.3",
+    "prettier": "^3.6.2",
+    "prettier-plugin-tailwindcss": "^0.6.14",
+    "sweetalert2": "^11.22.3",
+    "typescript": "^5.9.2",
+    "vue": "^3.5.18",
+    "vue-router": "^4.5.1",
+    "vue3-apexcharts": "^1.8.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.11"
+  }
+}
