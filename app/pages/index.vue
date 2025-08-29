@@ -3,7 +3,7 @@
     <div class="flex flex-col justify-center content-center  items-center">
       <Icon name="iconoir:battery-charging" class="w-20 h-20 text-white" />
 
-      <h1 class="text-white">Hello world</h1>
+      <h1 class="text-white font-[Prompt]">Hello world</h1>
     </div>
   </div>
 </template>

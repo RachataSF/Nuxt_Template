@@ -12,6 +12,11 @@ export default defineNuxtConfig({
     "@tailwindcss/vite",
     "@nuxt/icon", // <Icon name="uil:github" style="color: white" /> install extension "Iconify IntelliSense"
   ],
+    fonts: {
+    google: {
+      families: ["Prompt:400,500,700"],
+    },
+  },
   //setup base URL like /localhost:3000/xxxx
   app: { baseURL: "/ISSDashBoard/" },
   nitro: {
