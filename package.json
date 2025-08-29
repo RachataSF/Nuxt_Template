@@ -12,7 +12,6 @@
     "watch": "tailwindcss --watch -i ./app/assets/css/style.css -o ./app/assets/css/main.css"
   },
   "dependencies": {
-    "@nuxt/content": "^3.6.3",
     "@nuxt/fonts": "^0.11.4",
     "@nuxt/icon": "^2.0.0",
     "@nuxt/image": "^1.11.0",
@@ -21,10 +20,7 @@
     "@tailwindcss/vite": "^4.1.11",
     "apexcharts": "^5.3.3",
     "axios": "^1.11.0",
-    "better-sqlite3": "^12.2.0",
-    "npx": "^10.2.2",
     "nuxt": "^4.0.1",
-    "pinia": "^3.0.3",
     "prettier": "^3.6.2",
     "prettier-plugin-tailwindcss": "^0.6.14",
     "sweetalert2": "^11.22.3",
