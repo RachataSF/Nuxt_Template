@@ -12,20 +12,33 @@ export default defineNuxtConfig({
     "@tailwindcss/vite",
     "@nuxt/icon", // <Icon name="uil:github" style="color: white" /> install extension "Iconify IntelliSense"
   ],
-    fonts: {
+  fonts: {
     google: {
       families: ["Prompt:400,500,700"],
     },
   },
   //setup base URL like /localhost:3000/xxxx
-  app: { baseURL: "/ISSDashBoard/" },
-  nitro: {
-    //setup API
-    devProxy: {
-      "/ISSDashBoard/iss": {
-        target: "http://localhost:8081/ISSDashBoard/iss",
-        changeOrigin: true,
-      },
+  app: {
+    baseURL: "/ISSDashBoard/",
+    head: {
+      title: "ISSReport",
+      // link: [
+      //   { rel: "icon", type: "image/png", href: `/ISSReport/favicon.png` }, // หรือ .ico ก็ได้
+      // ],
+    },
+  },
+  // nitro: {
+  //   //setup API
+  //   devProxy: {
+  //     "/ISSDashBoard/iss": {
+  //       target: "http://localhost:8081/ISSDashBoard/iss",
+  //       changeOrigin: true,
+  //     },
+  //   },
+  // },
+  runtimeConfig: {
+    public: {
+      apiURL: "http://localhost:8081/ISSReport/iss",
     },
   },
   css: ["~/assets/css/main.css"],
