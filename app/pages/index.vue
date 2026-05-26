@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-gray-800 min-h-screen w-full ">
+  <div class="bg-gray-900 min-h-screen w-full ">
     <div class="flex flex-col justify-center content-center  items-center">
       <Icon name="iconoir:battery-charging" class="w-20 h-20 text-white" />
 
